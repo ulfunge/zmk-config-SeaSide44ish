@@ -1,0 +1,2 @@
+# zmk-config-SeaSide44ish
+SeaSideXを右手トラックボール版のKeyball44ishで使用するためのリポジトリです。
