@@ -1,0 +1,4 @@
+name: SeaSide44
+build:
+  settings:
+    board_root: config
