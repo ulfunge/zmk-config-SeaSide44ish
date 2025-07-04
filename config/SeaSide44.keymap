@@ -45,10 +45,10 @@
 
         default_layer {
             bindings = <
-&kp TAB           &kp Q             &kp W         &kp E             &kp R        &kp T                                      &kp Y        &kp U  &lt 5 I      &kp O       &lt 6 P        &kp MINUS
-&kp LEFT_CONTROL  &kp A             &kp S         &kp D             &kp F        &kp G                                      &kp H        &kp J  &kp K        &kp L       &kp SEMICOLON  &kp EQUAL
-&kp LSHFT         &mt LEFT_SHIFT Z  &kp X         &kp C             &kp V        &kp B                                      &kp N        &kp M  &kp COMMA    &kp PERIOD  &kp SLASH      &kp SINGLE_QUOTE
-                                    &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 1 LANG4  &lt 2 SPACE  &lt 3 LANG1    &kp BACKSPACE  &lt 3 ENTER         &lt 5 TILDE
+&kp TAB           &kp Q             &kp W         &kp E             &kp R             &kp T                                      &kp Y        &kp U  &lt 5 I      &kp O       &lt 6 P        &kp MINUS
+&kp LEFT_CONTROL  &kp A             &kp S         &kp D             &kp F             &kp G                                      &kp H        &kp J  &kp K        &kp L       &kp SEMICOLON  &kp EQUAL
+&kp LSHFT         &mt LEFT_SHIFT Z  &kp X         &kp C             &kp V             &kp B                                      &kp N        &kp M  &kp COMMA    &kp PERIOD  &kp SLASH      &kp SINGLE_QUOTE
+                                    &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 1 LANGUAGE_1  &lt 2 SPACE  &lt 3 LANG1    &kp BACKSPACE  &lt 2 ENTER         &lt 5 TILDE
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -65,10 +65,10 @@
 
         NUM {
             bindings = <
-&kp ESC         &kp AMPERSAND    &kp ASTERISK  &trans     &kp F14               &kp F15                                  &trans  &kp LEFT_ARROW        &kp UP_ARROW  &kp RIGHT_ARROW        &kp HOME       &kp RG(PLUS)
-&kp CAPSLOCK    &kp DOLLAR       &kp PERCENT   &kp LCTRL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                    &trans  &mkp MB1              &kp DOWN      &mkp MB2               &kp PAGE_UP    &kp RG(MINUS)
-&kp LEFT_SHIFT  &kp EXCLAMATION  &kp AT_SIGN   &kp POUND  &trans                &kp LA(SPACE)                            &trans  &kp RG(LEFT_BRACKET)  &trans        &kp RG(RIGHT_BRACKET)  &kp PAGE_DOWN  &kp RG(N0)
-                                 &trans        &trans     &trans                &trans                 &trans    &trans  &trans                        &kp END
+&trans  &trans           &kp LG(LS(N5))     &kp LS(LG(NUMBER_4))  &kp F14      &kp F15                            &trans  &kp LEFT_ARROW        &kp UP_ARROW  &kp RIGHT_ARROW        &kp HOME       &kp RG(PLUS)
+&trans  &kp K_VOLUME_UP  &kp K_VOLUME_DOWN  &kp K_MUTE            &kp LC(TAB)  &kp LC(LS(TAB))                    &trans  &mkp MB1              &kp DOWN      &mkp MB2               &kp PAGE_UP    &kp RG(MINUS)
+&trans  &kp LC(LEFT)     &kp LC(UP_ARROW)   &kp LC(RIGHT)         &trans       &kp LA(SPACE)                      &trans  &kp RG(LEFT_BRACKET)  &trans        &kp RG(RIGHT_BRACKET)  &kp PAGE_DOWN  &kp RG(N0)
+                         &trans             &trans                &trans       &trans           &trans    &trans  &trans                        &kp END
             >;
         };
 
