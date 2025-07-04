@@ -65,10 +65,10 @@
 
         NUM {
             bindings = <
-&trans  &trans           &kp LG(LS(N5))     &kp LS(LG(NUMBER_4))  &kp F14      &kp F15                            &trans  &kp LEFT_ARROW        &kp UP_ARROW  &kp RIGHT_ARROW        &kp HOME       &kp RG(PLUS)
-&trans  &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &kp K_MUTE            &kp LC(TAB)  &kp LC(LS(TAB))                    &trans  &mkp MB1              &kp DOWN      &mkp MB2               &kp PAGE_UP    &kp RG(MINUS)
-&trans  &kp LC(LEFT)     &kp LC(UP_ARROW)   &kp LC(RIGHT)         &trans       &kp LA(SPACE)                      &trans  &kp RG(LEFT_BRACKET)  &trans        &kp RG(RIGHT_BRACKET)  &kp PAGE_DOWN  &kp RG(N0)
-                         &trans             &trans                &trans       &trans           &trans    &trans  &trans                        &kp END
+&trans  &kp LG(LS(NUMBER_4))  &kp LG(LS(N5))      &trans         &kp F14          &kp F15                          &trans  &kp LEFT_ARROW        &kp UP_ARROW  &kp RIGHT_ARROW        &kp HOME       &kp RG(PLUS)
+&trans  &kp C_VOLUME_UP       &kp C_VOLUME_DOWN   &kp K_MUTE     &kp LC(LS(TAB))  &kp LC(TAB)                      &trans  &mkp MB1              &kp DOWN      &mkp MB2               &kp PAGE_UP    &kp RG(MINUS)
+&trans  &kp LC(LEFT)          &kp LC(UP_ARROW)    &kp LC(RIGHT)  &trans           &kp LA(SPACE)                    &trans  &kp RG(LEFT_BRACKET)  &trans        &kp RG(RIGHT_BRACKET)  &kp PAGE_DOWN  &kp RG(N0)
+                              &kp LC(DOWN_ARROW)  &trans         &trans           &trans         &trans    &trans  &trans                        &kp END
             >;
         };
 
@@ -94,10 +94,10 @@
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                                          &trans            &trans    &trans  &trans    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                          &trans            &mkp MB1  &trans  &mkp MB2  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                          &trans            &trans    &trans  &trans    &trans  &trans
-                &trans  &trans  &trans  &kp LS(LG(N5))  &kp LS(LG(N4))    &kp LC(DOWN)  &kp LC(UP_ARROW)            &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                          &trans            &trans  &trans    &trans    &trans             &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                          &trans            &trans  &trans    &trans    &trans             &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                          &trans            &trans  &mkp MB1  &mkp MB2  &kp RIGHT_CONTROL  &trans
+                &trans  &trans  &trans  &kp LS(LG(N5))  &kp LS(LG(N4))    &kp LC(DOWN)  &kp LC(UP_ARROW)          &trans
             >;
         };
 
