@@ -45,9 +45,9 @@
 
         default_layer {
             bindings = <
-&kp TAB           &kp Q             &kp W         &kp E             &kp R        &kp T                                      &kp Y        &kp U  &lt 5 I      &kp O     &lt 6 P        &kp MINUS
-&kp LEFT_CONTROL  &kp A             &kp S         &kp D             &kp F        &kp G                                      &kp H        &kp J  &kp K        &kp L     &kp SEMICOLON  &kp EQUAL
-&kp LSHFT         &mt LEFT_SHIFT Z  &kp X         &kp C             &kp V        &kp B                                      &kp N        &kp M  &mkp MB1     &mkp MB3  &mkp MB2       &kp SINGLE_QUOTE
+&kp TAB           &kp Q             &kp W         &kp E             &kp R        &kp T                                      &kp Y        &kp U  &lt 5 I      &kp O       &lt 6 P        &kp MINUS
+&kp LEFT_CONTROL  &kp A             &kp S         &kp D             &kp F        &kp G                                      &kp H        &kp J  &kp K        &kp L       &kp SEMICOLON  &kp EQUAL
+&kp LSHFT         &mt LEFT_SHIFT Z  &kp X         &kp C             &kp V        &kp B                                      &kp N        &kp M  &kp COMMA    &kp PERIOD  &kp SLASH      &kp SINGLE_QUOTE
                                     &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 1 LANG4  &lt 2 SPACE  &lt 3 LANG1    &kp BACKSPACE  &lt 3 ENTER         &lt 5 TILDE
             >;
 
@@ -56,10 +56,10 @@
 
         SYMBOL {
             bindings = <
-&trans  &kp PRCNT  &kp DOLLAR  &kp AMPERSAND  &kp CARET        &kp FSLH                           &kp BSLH        &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LESS_THAN  &kp GREATER_THAN   &kp N0
-&trans  &kp AT     &kp HASH    &kp ASTERISK   &kp PLUS         &kp EQUAL                          &kp UNDERSCORE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMI       &kp COLON          &kp N1
-&trans  &kp GRAVE  &kp TILDE   &kp MINUS      &kp EXCLAMATION  &kp QUESTION                       &kp PIPE        &kp LBKT              &kp RBKT               &kp SQT        &kp DOUBLE_QUOTES  &kp N2
-                   &trans      &trans         &trans           &trans        &trans    &kp COMMA  &kp PERIOD                            &kp ESC
+&kp ESC       &kp AMPERSAND    &kp ASTERISK  &trans     &trans                &trans                                      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS     &kp PERCENT    &trans
+&kp CAPSLOCK  &kp DOLLAR       &kp PERCENT   &kp LCTRL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS      &kp ASTERISK   &trans
+&trans        &kp EXCLAMATION  &kp AT_SIGN   &kp HASH   &kp LEFT_BRACKET      &kp RIGHT_BRACKET                           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0  &kp BACKSLASH  &trans
+                               &trans        &trans     &trans                &trans                 &trans    &kp COMMA  &kp PERIOD                  &trans
             >;
         };
 
