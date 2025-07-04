@@ -48,7 +48,7 @@
 &kp TAB           &kp Q             &kp W         &kp E             &kp R             &kp T                                      &kp Y        &kp U  &lt 5 I      &kp O       &lt 6 P        &kp MINUS
 &kp LEFT_CONTROL  &kp A             &kp S         &kp D             &kp F             &kp G                                      &kp H        &kp J  &kp K        &kp L       &kp SEMICOLON  &kp EQUAL
 &kp LSHFT         &mt LEFT_SHIFT Z  &kp X         &kp C             &kp V             &kp B                                      &kp N        &kp M  &kp COMMA    &kp PERIOD  &kp SLASH      &kp SINGLE_QUOTE
-                                    &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 1 LANGUAGE_1  &lt 2 SPACE  &lt 3 LANG1    &kp BACKSPACE  &lt 2 ENTER         &lt 5 TILDE
+                                    &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 1 LANGUAGE_2  &lt 2 SPACE  &lt 3 LANG1    &kp BACKSPACE  &lt 2 ENTER         &lt 5 TILDE
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -66,7 +66,7 @@
         NUM {
             bindings = <
 &trans  &trans           &kp LG(LS(N5))     &kp LS(LG(NUMBER_4))  &kp F14      &kp F15                            &trans  &kp LEFT_ARROW        &kp UP_ARROW  &kp RIGHT_ARROW        &kp HOME       &kp RG(PLUS)
-&trans  &kp K_VOLUME_UP  &kp K_VOLUME_DOWN  &kp K_MUTE            &kp LC(TAB)  &kp LC(LS(TAB))                    &trans  &mkp MB1              &kp DOWN      &mkp MB2               &kp PAGE_UP    &kp RG(MINUS)
+&trans  &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &kp K_MUTE            &kp LC(TAB)  &kp LC(LS(TAB))                    &trans  &mkp MB1              &kp DOWN      &mkp MB2               &kp PAGE_UP    &kp RG(MINUS)
 &trans  &kp LC(LEFT)     &kp LC(UP_ARROW)   &kp LC(RIGHT)         &trans       &kp LA(SPACE)                      &trans  &kp RG(LEFT_BRACKET)  &trans        &kp RG(RIGHT_BRACKET)  &kp PAGE_DOWN  &kp RG(N0)
                          &trans             &trans                &trans       &trans           &trans    &trans  &trans                        &kp END
             >;
@@ -76,7 +76,7 @@
             bindings = <
 &trans  &trans           &kp LG(LS(N5))     &kp LG(LS(NUMBER_4))  &kp F14  &kp F15                            &kp LG(LEFT_ARROW)          &kp LEFT                &kp UP_ARROW    &kp RA(RIGHT)            &kp RG(RIGHT_ARROW)          &kp N0
 &trans  &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &kp K_MUTE            &kp TAB  &kp LS(LC(TAB))                    &kp LC(LS(TAB))             &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp RC(TAB)                  &kp N1
-&trans  &kp LC(LEFT)     &kp LC(UP_ARROW)   &kp LC(RIGHT)         &trans   &kp LA(SPACE)                      &kp LA(LG(LC(LEFT_ARROW)))  &kp LA(LG(LEFT_ARROW))  &kp LA(LG(F))   &kp RG(RA(RIGHT_ARROW))  &kp RA(RC(RG(RIGHT_ARROW)))  &kp N2
+&trans  &kp LC(LEFT)     &kp LC(UP_ARROW)   &kp LC(RIGHT)         &trans   &kp LA(SPACE)                      &kp LA(LG(LC(LEFT_ARROW)))  &kp LA(LG(LEFT_ARROW))  &trans          &kp RG(RA(RIGHT_ARROW))  &kp RA(RC(RG(RIGHT_ARROW)))  &kp N2
                          &trans             &trans                &trans   &trans           &trans    &trans  &trans                                              &kp BACKSPACE
             >;
 
