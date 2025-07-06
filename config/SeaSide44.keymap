@@ -45,10 +45,10 @@
 
         default_layer {
             bindings = <
-&kp TAB           &kp Q             &kp W         &kp E             &kp R             &kp T                                      &kp Y        &kp U  &lt 5 I      &kp O     &lt 6 P        &kp MINUS
-&kp LEFT_CONTROL  &kp A             &kp S         &kp D             &kp F             &kp G                                      &kp H        &kp J  &kp K        &kp L     &kp SEMICOLON  &kp EQUAL
-&kp LSHFT         &mt LEFT_SHIFT Z  &kp X         &kp C             &kp V             &kp B                                      &kp N        &kp M  &mkp MB1     &mkp MB2  &kp SLASH      &kp SINGLE_QUOTE
-                                    &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 1 LANGUAGE_2  &lt 2 SPACE  &lt 3 LANG1    &kp BACKSPACE  &lt 2 ENTER         &lt 5 TILDE
+&kp TAB           &kp Q             &kp W         &kp E             &kp R             &kp T                                      &kp Y        &kp U  &lt 5 I      &kp O       &lt 6 P        &kp MINUS
+&kp LEFT_CONTROL  &kp A             &kp S         &kp D             &kp F             &kp G                                      &kp H        &kp J  &kp K        &kp L       &kp SEMICOLON  &kp EQUAL
+&kp LSHFT         &mt LEFT_SHIFT Z  &kp X         &kp C             &kp V             &kp B                                      &kp N        &kp M  &kp COMMA    &kp PERIOD  &kp SLASH      &kp SINGLE_QUOTE
+                                    &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 1 LANGUAGE_2  &lt 2 SPACE  &lt 3 LANG1    &kp BACKSPACE  &lt 2 ENTER         &lt 2 TILDE
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -65,10 +65,10 @@
 
         NUM {
             bindings = <
-&trans  &kp LG(LS(NUMBER_4))  &kp LG(LS(N5))      &trans         &kp F14          &kp F15                          &trans  &kp LEFT_ARROW        &kp UP_ARROW  &kp RIGHT_ARROW        &kp HOME       &kp RG(PLUS)
-&trans  &kp C_VOLUME_UP       &kp C_VOLUME_DOWN   &kp K_MUTE     &kp LC(LS(TAB))  &kp LC(TAB)                      &trans  &mkp MB1              &kp DOWN      &mkp MB2               &kp PAGE_UP    &kp RG(MINUS)
-&trans  &kp LC(LEFT)          &kp LC(UP_ARROW)    &kp LC(RIGHT)  &trans           &kp LA(SPACE)                    &trans  &kp RG(LEFT_BRACKET)  &trans        &kp RG(RIGHT_BRACKET)  &kp PAGE_DOWN  &kp RG(N0)
-                              &kp LC(DOWN_ARROW)  &trans         &trans           &trans         &trans    &trans  &trans                        &kp END
+&trans  &kp LG(LS(NUMBER_4))  &kp LG(LS(N5))      &trans         &kp F14          &kp F15                                        &trans                &kp LEFT_ARROW        &kp UP_ARROW  &kp RIGHT_ARROW        &kp HOME       &kp RG(PLUS)
+&trans  &kp C_VOLUME_UP       &kp C_VOLUME_DOWN   &kp K_MUTE     &kp LC(LS(TAB))  &kp LC(TAB)                                    &trans                &mkp MB1              &kp DOWN      &mkp MB2               &kp PAGE_UP    &kp RG(MINUS)
+&trans  &kp LC(LEFT)          &kp LC(UP_ARROW)    &kp LC(RIGHT)  &trans           &kp LA(SPACE)                                  &trans                &kp RG(LEFT_BRACKET)  &trans        &kp RG(RIGHT_BRACKET)  &kp PAGE_DOWN  &kp RG(N0)
+                              &kp LC(DOWN_ARROW)  &trans         &trans           &trans         &trans    &to_layer_0 NUMBER_4  &to_layer_0 NUMBER_6                        &kp END
             >;
         };
 
