@@ -45,10 +45,10 @@
 
         default_layer {
             bindings = <
-&kp TAB           &kp Q             &kp W         &kp E             &kp R             &kp T                                      &kp Y        &kp U  &lt 5 I      &kp O       &lt 6 P        &kp MINUS
-&kp LEFT_CONTROL  &kp A             &kp S         &kp D             &kp F             &kp G                                      &kp H        &kp J  &kp K        &kp L       &kp SEMICOLON  &kp EQUAL
-&kp LSHFT         &mt LEFT_SHIFT Z  &kp X         &kp C             &kp V             &kp B                                      &kp N        &kp M  &kp COMMA    &kp PERIOD  &kp SLASH      &kp SINGLE_QUOTE
-                                    &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 1 LANGUAGE_2  &lt 2 SPACE  &lt 3 LANG1    &kp BACKSPACE  &lt 2 ENTER         &lt 2 TILDE
+&kp TAB           &kp Q  &kp W         &kp E             &kp R             &kp T                                      &kp Y        &kp U  &lt 5 I      &kp O       &lt 6 P        &kp MINUS
+&kp LEFT_CONTROL  &kp A  &kp S         &kp D             &kp F             &kp G                                      &kp H        &kp J  &kp K        &kp L       &kp SEMICOLON  &kp EQUAL
+&kp LSHFT         &kp Z  &kp X         &kp C             &kp V             &kp B                                      &kp N        &kp M  &kp COMMA    &kp PERIOD  &kp SLASH      &kp SINGLE_QUOTE
+                         &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 1 LANGUAGE_2  &lt 2 SPACE  &lt 3 LANG1    &kp BACKSPACE  &lt 2 ENTER         &lt 2 TILDE
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -65,18 +65,18 @@
 
         NUM {
             bindings = <
-&trans  &kp LG(LS(NUMBER_4))  &kp LG(LS(N5))      &trans         &kp F14          &kp F15                                        &trans                &kp LEFT_ARROW        &kp UP_ARROW  &kp RIGHT_ARROW        &kp HOME       &kp RG(PLUS)
-&trans  &kp C_VOLUME_UP       &kp C_VOLUME_DOWN   &kp K_MUTE     &kp LC(LS(TAB))  &kp LC(TAB)                                    &trans                &mkp MB1              &kp DOWN      &mkp MB2               &kp PAGE_UP    &kp RG(MINUS)
-&trans  &kp LC(LEFT)          &kp LC(UP_ARROW)    &kp LC(RIGHT)  &trans           &kp LA(SPACE)                                  &trans                &kp RG(LEFT_BRACKET)  &trans        &kp RG(RIGHT_BRACKET)  &kp PAGE_DOWN  &kp RG(N0)
-                              &kp LC(DOWN_ARROW)  &trans         &trans           &trans         &trans    &to_layer_0 NUMBER_4  &to_layer_0 NUMBER_6                        &kp END
+&trans            &kp LG(LS(NUMBER_4))  &kp LG(LS(N5))      &trans         &kp F14          &kp F15                                        &trans                &kp LEFT_ARROW        &kp UP_ARROW  &kp RIGHT_ARROW        &kp HOME       &kp RG(PLUS)
+&kp LEFT_CONTROL  &kp C_VOLUME_UP       &kp C_VOLUME_DOWN   &kp K_MUTE     &kp LC(LS(TAB))  &kp LC(TAB)                                    &trans                &mkp MB1              &kp DOWN      &mkp MB2               &kp PAGE_UP    &kp RG(MINUS)
+&trans            &kp LC(LEFT)          &kp LC(UP_ARROW)    &kp LC(RIGHT)  &trans           &kp LA(SPACE)                                  &trans                &kp RG(LEFT_BRACKET)  &trans        &kp RG(RIGHT_BRACKET)  &kp PAGE_DOWN  &kp RG(N0)
+                                        &kp LC(DOWN_ARROW)  &trans         &trans           &trans         &trans    &to_layer_0 NUMBER_4  &to_layer_0 NUMBER_6                        &kp END
             >;
         };
 
         ARROW {
             bindings = <
-&trans  &trans           &kp LG(LS(N5))     &kp LG(LS(NUMBER_4))  &kp F14  &kp F15                            &kp LG(LEFT_ARROW)          &kp LEFT                &kp UP_ARROW    &kp RA(RIGHT)            &kp RG(RIGHT_ARROW)          &kp N0
-&trans  &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &kp K_MUTE            &kp TAB  &kp LS(LC(TAB))                    &kp LC(LS(TAB))             &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp RC(TAB)                  &kp N1
-&trans  &kp LC(LEFT)     &kp LC(UP_ARROW)   &kp LC(RIGHT)         &trans   &kp LA(SPACE)                      &kp LA(LG(LC(LEFT_ARROW)))  &kp LA(LG(LEFT_ARROW))  &trans          &kp RG(RA(RIGHT_ARROW))  &kp RA(RC(RG(RIGHT_ARROW)))  &kp N2
+&trans  &trans           &kp LG(LS(N5))     &kp LG(LS(NUMBER_4))  &kp F14  &kp F15                            &kp LG(LEFT_ARROW)          &kp LEFT                &kp UP_ARROW    &kp RA(RIGHT)            &kp RG(RIGHT_ARROW)          &trans
+&trans  &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &kp K_MUTE            &kp TAB  &kp LS(LC(TAB))                    &kp LC(LS(TAB))             &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp RC(TAB)                  &trans
+&trans  &kp LC(LEFT)     &kp LC(UP_ARROW)   &kp LC(RIGHT)         &trans   &kp LA(SPACE)                      &kp LA(LG(LC(LEFT_ARROW)))  &kp LA(LG(LEFT_ARROW))  &trans          &kp RG(RA(RIGHT_ARROW))  &kp RA(RC(RG(RIGHT_ARROW)))  &trans
                          &trans             &trans                &trans   &trans           &trans    &trans  &trans                                              &kp BACKSPACE
             >;
 
@@ -85,27 +85,27 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans          &trans    &trans    &trans  &kp N0
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &msc MOVE_Y(0)  &mkp MB3  &mkp MB2  &trans  &kp N1
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans          &trans    &trans    &trans  &kp N2
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans          &trans    &trans    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &msc MOVE_Y(0)  &mkp MB3  &mkp MB2  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans          &trans    &trans    &trans  &trans
                 &trans  &trans  &trans  &trans  &trans    &trans  &trans                  &trans
             >;
         };
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                                    &trans                  &trans             &trans    &trans    &trans             &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                    &trans                  &trans             &trans    &trans    &trans             &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                    &trans                  &kp RIGHT_CONTROL  &mkp MB1  &mkp MB2  &kp RIGHT_CONTROL  &trans
-                &trans  &trans  &trans  &trans  &trans    &lt_to_layer_0 4 SPACE  &lt_to_layer_0 6 SPACE                     &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                    &trans                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                    &trans                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                    &trans                  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans    &lt_to_layer_0 4 SPACE  &lt_to_layer_0 6 SPACE          &trans
             >;
         };
 
         CONFIG {
             bindings = <
-&trans  &bt BT_CLR_ALL  &bt BT_CLR    &trans        &trans        &trans                          &trans       &trans  &trans  &trans  &trans  &kp N0
-&trans  &trans          &trans        &trans        &trans        &trans                          &trans       &trans  &trans  &trans  &trans  &kp N1
-&trans  &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &bootloader  &trans  &trans  &trans  &trans  &kp N2
+&trans  &bt BT_CLR_ALL  &bt BT_CLR    &trans        &trans        &trans                          &trans       &trans  &trans  &trans  &trans  &trans
+&trans  &trans          &trans        &trans        &trans        &trans                          &trans       &trans  &trans  &trans  &trans  &trans
+&trans  &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &bootloader  &trans  &trans  &trans  &trans  &trans
                         &trans        &trans        &trans        &trans        &trans    &trans  &trans               &trans
             >;
         };
