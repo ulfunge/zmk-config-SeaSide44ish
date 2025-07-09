@@ -56,19 +56,19 @@
 
         SYMBOL {
             bindings = <
-&kp ESC       &kp AMPERSAND    &kp ASTERISK  &trans     &trans                &trans                                      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS     &kp PERCENT    &trans
-&kp CAPSLOCK  &kp DOLLAR       &kp PERCENT   &kp LCTRL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS      &kp ASTERISK   &trans
-&trans        &kp EXCLAMATION  &kp AT_SIGN   &kp HASH   &kp LEFT_BRACKET      &kp RIGHT_BRACKET                           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0  &kp BACKSLASH  &trans
-                               &trans        &trans     &trans                &trans                 &trans    &kp COMMA  &kp PERIOD                  &trans
+&kp ESC       &kp AMPERSAND    &kp ASTERISK  &trans     &trans                &trans                                   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS     &kp PERCENT    &trans
+&kp CAPSLOCK  &kp DOLLAR       &kp PERCENT   &kp LCTRL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS      &kp ASTERISK   &trans
+&trans        &kp EXCLAMATION  &kp AT_SIGN   &kp HASH   &kp LEFT_BRACKET      &kp RIGHT_BRACKET                        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0  &kp BACKSLASH  &trans
+                               &trans        &trans     &trans                &trans                 &trans    &trans  &trans                      &trans
             >;
         };
 
         NUM {
             bindings = <
-&trans            &kp LG(LS(NUMBER_4))  &kp LG(LS(N5))      &trans         &kp F14          &kp F15                                        &trans                &kp LEFT_ARROW        &kp UP_ARROW  &kp RIGHT_ARROW        &kp HOME       &kp RG(PLUS)
-&kp LEFT_CONTROL  &kp C_VOLUME_UP       &kp C_VOLUME_DOWN   &kp K_MUTE     &kp LC(LS(TAB))  &kp LC(TAB)                                    &trans                &mkp MB1              &kp DOWN      &mkp MB2               &kp PAGE_UP    &kp RG(MINUS)
-&trans            &kp LC(LEFT)          &kp LC(UP_ARROW)    &kp LC(RIGHT)  &trans           &kp LA(SPACE)                                  &trans                &kp RG(LEFT_BRACKET)  &trans        &kp RG(RIGHT_BRACKET)  &kp PAGE_DOWN  &kp RG(N0)
-                                        &kp LC(DOWN_ARROW)  &trans         &trans           &trans         &trans    &to_layer_0 NUMBER_4  &to_layer_0 NUMBER_6                        &kp END
+&trans            &kp LG(LS(NUMBER_4))  &kp LG(LS(N5))      &trans         &kp F14          &kp F15                               &trans       &kp LEFT_ARROW        &kp UP_ARROW  &kp RIGHT_ARROW        &kp HOME       &kp RG(PLUS)
+&kp LEFT_CONTROL  &kp C_VOLUME_UP       &kp C_VOLUME_DOWN   &kp K_MUTE     &kp LC(LS(TAB))  &kp LC(TAB)                           &trans       &mkp MB1              &kp DOWN      &mkp MB2               &kp PAGE_UP    &kp RG(MINUS)
+&trans            &kp LC(LEFT)          &kp LC(UP_ARROW)    &kp LC(RIGHT)  &trans           &kp LA(SPACE)                         &trans       &kp RG(LEFT_BRACKET)  &trans        &kp RG(RIGHT_BRACKET)  &kp PAGE_DOWN  &kp RG(N0)
+                                        &kp LC(DOWN_ARROW)  &trans         &trans           &trans         &trans    &lt 4 SPACE  &lt 6 SPACE                        &kp END
             >;
         };
 
