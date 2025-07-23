@@ -59,7 +59,7 @@
 &kp ESC       &kp AMPERSAND    &kp ASTERISK  &trans     &trans                &trans                                   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS     &kp PERCENT    &trans
 &kp CAPSLOCK  &kp DOLLAR       &kp PERCENT   &kp LCTRL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS      &kp ASTERISK   &trans
 &trans        &kp EXCLAMATION  &kp AT_SIGN   &kp HASH   &kp LEFT_BRACKET      &kp RIGHT_BRACKET                        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0  &kp BACKSLASH  &trans
-                               &trans        &trans     &trans                &trans                 &trans    &trans  &trans                      &trans
+                               &trans        &trans     &trans                &trans                 &trans    &trans  &kp PERIOD                  &trans
             >;
         };
 
@@ -74,10 +74,10 @@
 
         ARROW {
             bindings = <
-&trans  &trans             &kp LG(LS(N5))    &kp LG(LS(NUMBER_4))  &kp F14  &kp F15                            &kp LG(LEFT_ARROW)          &kp LEFT                &kp UP_ARROW    &kp RA(RIGHT)            &kp RG(RIGHT_ARROW)          &trans
-&trans  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP   &kp K_MUTE            &kp TAB  &kp LS(LC(TAB))                    &kp LC(LS(TAB))             &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp RC(TAB)                  &trans
-&trans  &kp LC(LEFT)       &kp LC(UP_ARROW)  &kp LC(RIGHT)         &trans   &kp LA(SPACE)                      &kp LA(LG(LC(LEFT_ARROW)))  &kp LA(LG(LEFT_ARROW))  &trans          &kp RG(RA(RIGHT_ARROW))  &kp RA(RC(RG(RIGHT_ARROW)))  &trans
-                           &trans            &trans                &trans   &trans           &trans    &trans  &trans                                              &kp BACKSPACE
+&trans  &trans  &trans  &trans  &trans  &trans                    &kp LG(LEFT_ARROW)          &kp LEFT                &kp UP_ARROW    &kp RA(RIGHT)            &kp RG(RIGHT_ARROW)          &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &kp LC(LS(TAB))             &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp RC(TAB)                  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &kp LA(LG(LC(LEFT_ARROW)))  &kp LA(LG(LEFT_ARROW))  &trans          &kp RG(RA(RIGHT_ARROW))  &kp RA(RC(RG(RIGHT_ARROW)))  &trans
+                &trans  &trans  &trans  &trans  &trans    &trans  &trans                                              &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
